@@ -12,14 +12,11 @@ struct ImageSearchDictionary: Decodable {
 }
 
 struct UnsplashImage: Decodable {
-    
     let urls: URLGroup
     let description: String?
 }
 
 struct URLGroup: Decodable {
-    
     let small: String
     let regular: String
-    
 }

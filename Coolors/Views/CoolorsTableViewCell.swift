@@ -29,7 +29,7 @@ class CoolorsTableViewCell: UITableViewCell {
     
     var unsplashImage: UnsplashImage? {
         didSet{
-           updateViews()
+            updateViews()
         }
     }
     
@@ -40,7 +40,7 @@ class CoolorsTableViewCell: UITableViewCell {
     
     override func prepareForReuse() {
         super.prepareForReuse()
-        coolorsView.colors = [UIColor(named: "offWhite")!]
+        coolorsView.colors = [UIColor.gray]
     }
     
     func updateViews(){

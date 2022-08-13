@@ -10,7 +10,7 @@ import Foundation
 enum UnsplashPath {
     
     static let stringUrl = "https://api.unsplash.com/"
-    static let clientId = "e0897a040edfc6eab3ada63a7be08b74c9a148701f867d29955a5544cad5e85e"
+    static let clientId = "eYF-rzW776nic2O-HgC1Ee_gocdleMtcIb3n5FbxLjg"
     
     case photosRandom
     case photos
@@ -47,5 +47,6 @@ enum UnsplashPath {
         components?.queryItems = queryItems
         return components?.url
     }
+    
 }
 

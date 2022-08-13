@@ -56,5 +56,5 @@ class CoolorsView: UIView {
             self.colorStackView.removeArrangedSubview(subView)
         }
     }
-  
+    
 }

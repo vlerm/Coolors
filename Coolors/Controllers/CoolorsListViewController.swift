@@ -47,7 +47,6 @@ class CoolorsListViewController: UIViewController {
         return tableView
     }()
     
-    
     var unsplashImages: [UnsplashImage] = []
     
     var safeArea: UILayoutGuide {
@@ -118,7 +117,7 @@ class CoolorsListViewController: UIViewController {
     
     func selectButton(_ button: UIButton) {
         categoryButtons.forEach{ $0.setTitleColor(UIColor.lightGray, for: .normal)}
-        button.setTitleColor(UIColor(named: "devmountainBlue"), for: .normal)
+        button.setTitleColor(UIColor.systemRed, for: .normal)
     }
     
     @objc func searchButtonTapped(sender: UIButton) {

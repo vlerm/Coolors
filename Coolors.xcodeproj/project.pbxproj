@@ -19,7 +19,7 @@
 		4F41807828A53D7C00A1BE29 /* UnsplashParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F41807728A53D7C00A1BE29 /* UnsplashParser.swift */; };
 		4F41807A28A53D9300A1BE29 /* UnsplashPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F41807928A53D9300A1BE29 /* UnsplashPath.swift */; };
 		4F41807C28A53DA000A1BE29 /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F41807B28A53DA000A1BE29 /* ImageService.swift */; };
-		4F41807E28A53DAF00A1BE29 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F41807D28A53DAF00A1BE29 /* Utilities.swift */; };
+		4F41807E28A53DAF00A1BE29 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F41807D28A53DAF00A1BE29 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,7 +37,7 @@
 		4F41807728A53D7C00A1BE29 /* UnsplashParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashParser.swift; sourceTree = "<group>"; };
 		4F41807928A53D9300A1BE29 /* UnsplashPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashPath.swift; sourceTree = "<group>"; };
 		4F41807B28A53DA000A1BE29 /* ImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
-		4F41807D28A53DAF00A1BE29 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		4F41807D28A53DAF00A1BE29 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +97,7 @@
 				4F41807728A53D7C00A1BE29 /* UnsplashParser.swift */,
 				4F41807928A53D9300A1BE29 /* UnsplashPath.swift */,
 				4F41807B28A53DA000A1BE29 /* ImageService.swift */,
-				4F41807D28A53DAF00A1BE29 /* Utilities.swift */,
+				4F41807D28A53DAF00A1BE29 /* Extensions.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -202,7 +202,7 @@
 				4F41807C28A53DA000A1BE29 /* ImageService.swift in Sources */,
 				4F41807028A53C7F00A1BE29 /* ImageColor.swift in Sources */,
 				4F41807828A53D7C00A1BE29 /* UnsplashParser.swift in Sources */,
-				4F41807E28A53DAF00A1BE29 /* Utilities.swift in Sources */,
+				4F41807E28A53DAF00A1BE29 /* Extensions.swift in Sources */,
 				4F41807628A53D4F00A1BE29 /* CoolorsListViewController.swift in Sources */,
 				4F41807428A53CD100A1BE29 /* CoolorsView.swift in Sources */,
 				4F41807A28A53D9300A1BE29 /* UnsplashPath.swift in Sources */,

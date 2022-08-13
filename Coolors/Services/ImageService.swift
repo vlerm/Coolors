@@ -29,7 +29,7 @@ class ImageService {
                 return
             }
             guard let data = data else {completion(nil) ; return}
-            do{
+            do {
                 let decoder = JSONDecoder()
                 let imageColorResponse = try decoder.decode(ImageColorResponse.self, from: data)
                 let imageColors = imageColorResponse.result.colors.imageColors
